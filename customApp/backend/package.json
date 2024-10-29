@@ -6,6 +6,8 @@
         "dev": "nodemon server.js",
         "test": "jest"
     },
+    "author": "",
+    "license": "ISC",
     "dependencies": {
         "sequelize": "6.6.5",
         "express": "4.17.1",
@@ -14,7 +16,8 @@
         "nodemailer": "6.7.2"
     },
     "devDependencies": {
-        "sequelize": "latest",
+        "sequelize": "6.6.5",
+        "sequelize-cli": "6.2.0",
         "bcrypt": "5.0.0",
         "nodemailer": "6.6.3"
     }
